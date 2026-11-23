@@ -3,4 +3,9 @@ public class airbusJet {
     public airbusJet(AircraftServices aircraftServices) {
         this.aircraftServices = aircraftServices;
     }
+    public void operate(){
+        aircraftServices.supplyAircraftServices();
+        System.out.println("Aircraft is ready for operation.");
+        System.out.println();
+    }
 }
